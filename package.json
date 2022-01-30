@@ -1,0 +1,41 @@
+{
+  "name": "lessonnodejs01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "scss" :"node-sass --watch src/sources/scss/ --output src/public/css/",
+    "start": "nodemon --inspect src/index.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Developer-NguyenVanChung/lessonNodejs01.git"
+  },
+  "keywords": [
+    "chungkhoan",
+    "chung",
+    "khoan",
+    "dau",
+    "tu",
+    "co",
+    "phieu",
+    "phai",
+    "sinh"
+  ],
+  "author": "nvc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Developer-NguyenVanChung/lessonNodejs01/issues"
+  },
+  "homepage": "https://github.com/Developer-NguyenVanChung/lessonNodejs01#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
